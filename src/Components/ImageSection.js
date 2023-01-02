@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import resume from "../img/photo.jpg";
+import resume from "../img/photo2.jpg";
 import PrimaryButton from "./PrimaryButton";
 
 function ImageSection() {
@@ -34,7 +34,7 @@ function ImageSection() {
             <p>: Indian </p>
             <p>: English,Malayalam</p>
             <p>: Kannur,Kerala</p>
-            <p>: rizwankk448@gmail</p>
+            <p>: rizwankk448@gmail.com</p>
           </div>
         </div>
         <PrimaryButton title={"Download Cv"} />
@@ -56,7 +56,7 @@ const ImageSectionStyled = styled.div`
     width: 100%;
     img {
       width: 95%;
-      height: 80%;
+      height: 70%;
       object-fit: cover;
     }
   }

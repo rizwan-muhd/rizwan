@@ -1,11 +1,11 @@
 import React from "react";
 import styled from "styled-components";
 import { InnerLayout } from "../styles/Layouts";
-import Title from "../Components/Title";
-import ServiceCard from "../Components/ServiceCard";
-import design from "../img/design.svg";
-import intelligence from "../img/intelligence.svg";
-import gamedev from "../img/game-dev.svg";
+import Title from "./Title";
+import ServiceCard from "./ServiceCard";
+// import design from "../img/design.svg";
+// import intelligence from "../img/intelligence.svg";
+// import gamedev from "../img/game-dev.svg";
 import WebIcon from "@mui/icons-material/Web";
 
 function ServicesSection() {
@@ -24,9 +24,9 @@ function ServicesSection() {
           <div className="mid-card">
             <ServiceCard
               //   image={intelligence}
-              title={"Trading"}
+              title={"App Development"}
               paragraph={
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
+                "Developing mobile application which can be used on Android operating system and ios operating system"
               }
             />
           </div>

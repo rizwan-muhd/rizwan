@@ -1,36 +1,31 @@
-import css1 from "../img/portImages/cv_css.png";
-import css2 from "../img/portImages/ms.png";
-import react1 from "../img/portImages/react_styled.png";
-import img2 from "../img/portImages/maya-4.jpg";
-import img3 from "../img/portImages/maya-3.jpg";
+import img1 from "../img/buy & sell.png";
+import img2 from "../img/netflix.png";
+import img3 from "../img/todoApp.png";
 
 const portfolios = [
   {
     id: 1,
-    category: "CSS",
-    image: css1,
-    link1: "https://www.google.com",
-    link2: "https://www.google.com",
+    category: "MERN",
+    image: img1,
+    link1: "https://github.com/rizwan-muhd/buy-sell",
     title: "Buy & Sell",
-    text: "Build using Mern stack",
+    text: "Trading Platform Build using Mern stack",
   },
   {
     id: 2,
-    category: "Python",
-    image: img3,
-    link1: "https://www.google.com",
-    link2: "https://www.google.com",
-    title: "How To Animate In Maya",
-    text: "Number one Animation Application",
+    category: "react",
+    image: img2,
+    link1: "https://github.com/rizwan-muhd/netflix_clone",
+    title: "Netflix_clone",
+    text: "Netflix_clone application built using react.js",
   },
   {
     id: 3,
-    category: "Javascript",
+    category: "mern",
     image: img3,
-    link1: "https://www.google.com",
-    link2: "https://www.google.com",
-    title: "How To Animate In Maya",
-    text: "Number one Animation Application",
+    link1: "https://github.com/rizwan-muhd/todo",
+    title: "TodoApp",
+    text: "Basic Crud oppertion in mern stack & redux",
   },
 ];
 
